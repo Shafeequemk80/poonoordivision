@@ -416,9 +416,9 @@
       $("#submit-form").submit((e) => {
         e.preventDefault();
         if (formValidation()) {
-          console.log("Form data:", $("#submit-form").serialize());
+   
           $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbxx8o-krP4t3KvrNwlmFScN-1_S--iG4TWsgF1oojSciJiONxOclnsxCR6io3TculI/exec",
+            url: "https://script.google.com/macros/s/AKfycbw2fPxBpHXhvK26PVMr-ndgU3pOitbRAcVKjNAEo7xtAyvoQdUNnojoZqmWTJKdML4Y/exec",
             data: $("#submit-form").serialize(),
             method: "post",
             success: function (response) {
