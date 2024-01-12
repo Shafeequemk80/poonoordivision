@@ -55,7 +55,7 @@ $(document).ready(function () {
       unitDropdown.empty();
 
       // Add default option
-      unitDropdown.append('<option value="" selected disabled>select Unit</option>');
+      unitDropdown.append('<option value="" selected disabled>Select Unit</option>');
 
       // Add units based on selected sector
       if (selectedSector in units) {

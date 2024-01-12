@@ -38,10 +38,10 @@ $(document).ready(function () {
     var units = {
       'ELETTIL': ['CHALIKKODE', 'KANNITTAMAKKIL', 'KUNDUNGARAPARA', 'ELETTIL TOWN', 'OZHAN AKKUNN', 'ELETTIL EAST', 'THAROL', 'KANJIRAMUKK', 'CHETTAKADAV'],
       'KANTHAPURAM': ['VADAKKE NEROTH','KANTHAPURAM','THADAYIL', 'SALAMATH NAGAR', 'POOPOYIL', 'CM NAGAR', 'NEROTH', 'MANGAD', 'KARUVATTA', 'AVELATH', 'BADRIYYA NAGAR', 'ALAGAPOYIL'],
-      'KIZHAKKOTH': ['KACHERIMUKK', 'PANNUR', 'KOTTAKKAL', 'URULIKKUNN', 'PUTHALATH', 'MARIVEETTIL THAZHAM', 'POOVATHODUKA', 'Koroth chal'],
+      'KIZHAKKOTH': ['KACHERIMUKK', 'PANNUR', 'KOTTAKKAL', 'URULIKKUNN', 'PUTHALATH', 'MARIVEETTIL THAZHAM', 'POOVATHODUKA', 'KOROTH CHAL'],
       'UNNIKULAM': ['IYYAD', 'EKAROOL', 'VALANNOOR', 'VALLIYOTH', 'ANIYOTH POYIL', 'METHADAM', 'KARUMALA'],
       'POONOOR': ['MADATHUMPOYIL', 'UMMINIKUNN', 'ESTATE MUKK', 'POONOOR', 'ΑΜΑΝΑΤΗ NAGAR', 'NERPOYIL', 'KELOTH'],
-      'THALAYAD': ['MM PARAMB', 'SHANTHI NAGAR', 'PADIKKAL VAYAL', 'THALAYAD', 'CHEEDIKUZHI', 'THECHI', 'RAJAGIRI', 'Vakeri'],
+      'THALAYAD': ['MM PARAMB', 'SHANTHI NAGAR', 'PADIKKAL VAYAL', 'THALAYAD', 'CHEEDIKUZHI', 'THECHI', 'RAJAGIRI', 'VAKERI'],
       'AVILORA': ['BUSTHANABAD', 'KUNNUMMAL', 'PARAKKANDI', 'KATHARAMMAL', 'KARIMBARAKUND', 'KARANIKKALL', 'PARAMMAL', 'AVILORA']
     };
 
@@ -55,7 +55,7 @@ $(document).ready(function () {
       unitDropdown.empty();
 
       // Add default option
-      unitDropdown.append('<option value="" selected disabled>select Unit</option>');
+      unitDropdown.append('<option value="" selected disabled>Select Unit</option>');
 
       // Add units based on selected sector
       if (selectedSector in units) {
